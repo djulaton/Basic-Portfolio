@@ -5,6 +5,18 @@
 body {
   margin: 0;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  background-image: url("gradient_bg.png");
+  background-color: #ddd;
+  line-height: 1.6;
+}
+
+#title {
+    float: left;
+    background-color: rgb(66, 216, 221);
+    color: rgb(255, 255, 255);
+    font: 150%/200% Tinos, serif;
+    padding: 15px;
+    width: 33%;
 }
 
 /* Style the top navigation bar */
@@ -43,12 +55,14 @@ body {
 /* Left and right column */
 .column.side {
     width: 20%;
+    background-image: url("light-grey-terrazzo.png");
 }
 
 /* Middle column */
 .column.middle {
     width: 60%;
     height: 500px;
+    background-color: white;
 }
 
 .h2 {
@@ -74,4 +88,4 @@ body {
     border-color: #4aaaa5;
     color: white;
     padding: 15px;
-} 
+}
