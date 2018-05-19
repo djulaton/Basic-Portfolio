@@ -68,6 +68,10 @@ footer {
 	text-align: center;
 }
 
+span {
+	vertical-align: text-bottom;
+}
+
 p {
 	margin-bottom: 1em;
 	line-height: 2em;
@@ -93,7 +97,7 @@ p.title {
 }
 
 section {
-	width: 100%;
+	width: 960px;
 	padding: 0 2em;
 	max-width: 896px;
 	margin:0 auto;
@@ -109,8 +113,8 @@ main section {
 .profile-photo {
 	float:left;
 	margin-right: 1em;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 }
 
 /* Input fields for contact form */
@@ -136,7 +140,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0894f1;
 }
 
 textarea {
@@ -156,6 +160,7 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
 	width: 180px;
+	height: 180px;
 	position: relative;
 	font-family: Arial;
 }
@@ -169,21 +174,14 @@ div.gallery img {
 	height: auto;
 }
 
-div.desc {
-    padding: 15px;
-	text-align: center;
-	background-color: #4aaaa5;
-	color: white;
-}
-
 .text-block {
     position: absolute;
     bottom: 20px;
-	left: 1px;
+	left: 0px;
 	background-color: #4aaaa5;
     color: white;
 	padding: 15px;
-    width: 82%;
+    width: 83.5%;
 	text-align: center;
 }
 
